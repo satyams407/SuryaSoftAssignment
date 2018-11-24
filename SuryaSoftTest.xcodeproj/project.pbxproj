@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7166999B04A49F99AC6D40D5 /* Pods_SuryaSoftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975D017BA6E4C54C6E8DB51D /* Pods_SuryaSoftTest.framework */; };
+		AC20285621A8842200B73B05 /* ContactListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285521A8842200B73B05 /* ContactListTableCell.swift */; };
+		AC20285821A8844300B73B05 /* ContactListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285721A8844300B73B05 /* ContactListCellModel.swift */; };
+		AC20285A21A964CB00B73B05 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285921A964CB00B73B05 /* ContactViewController.swift */; };
+		AC20285C21A98C5700B73B05 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285B21A98C5700B73B05 /* NetworkError.swift */; };
+		AC20285F21A995A300B73B05 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285D21A995A300B73B05 /* UIImageViewExtension.swift */; };
+		AC20286021A995A300B73B05 /* AppURLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20285E21A995A300B73B05 /* AppURLConstants.swift */; };
+		AC20286221A99A7B00B73B05 /* CoreDataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20286121A99A7B00B73B05 /* CoreDataUtil.swift */; };
+		AC20286421A99ACD00B73B05 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20286321A99ACD00B73B05 /* CoreDataStack.swift */; };
+		AC20286E21A9C3A400B73B05 /* ContactList+FetchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20286D21A9C3A400B73B05 /* ContactList+FetchResultController.swift */; };
+		AC20287021A9CADB00B73B05 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20286F21A9CADB00B73B05 /* AppUtility.swift */; };
+		AC20287221A9CB2600B73B05 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20287121A9CB2600B73B05 /* StringConstants.swift */; };
+		AC20287421A9CDCA00B73B05 /* FetchContactServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20287321A9CDCA00B73B05 /* FetchContactServiceProtocol.swift */; };
+		ACE98E2821A5B2C40042F26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE98E2721A5B2C40042F26D /* AppDelegate.swift */; };
+		ACE98E2D21A5B2C40042F26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE98E2B21A5B2C40042F26D /* Main.storyboard */; };
+		ACE98E3021A5B2C40042F26D /* SuryaSoftTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACE98E2E21A5B2C40042F26D /* SuryaSoftTest.xcdatamodeld */; };
+		ACE98E3221A5B2C60042F26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE98E3121A5B2C60042F26D /* Assets.xcassets */; };
+		ACE98E3521A5B2C60042F26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE98E3321A5B2C60042F26D /* LaunchScreen.storyboard */; };
+		ACE98E4021A5B2C70042F26D /* SuryaSoftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE98E3F21A5B2C70042F26D /* SuryaSoftTestTests.swift */; };
+		ACE98E4D21A5B66D0042F26D /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE98E4C21A5B66D0042F26D /* ContactListViewModel.swift */; };
+		ACE98E4F21A5B8660042F26D /* FetchContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE98E4E21A5B8660042F26D /* FetchContactService.swift */; };
+		F5E3DE962D2B216771180EC7 /* Pods_SuryaSoftTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68AA89268ECBEAAC2C44DBA /* Pods_SuryaSoftTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE98E3C21A5B2C70042F26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE98E1C21A5B2C40042F26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE98E2321A5B2C40042F26D;
+			remoteInfo = SuryaSoftTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3761FDA7DD4C39EBD0116803 /* Pods-SuryaSoftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuryaSoftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuryaSoftTest/Pods-SuryaSoftTest.release.xcconfig"; sourceTree = "<group>"; };
+		3E7484516018D6653EDD1A82 /* Pods-SuryaSoftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuryaSoftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuryaSoftTest/Pods-SuryaSoftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9499F5E9C9A5FEF03D24CA60 /* Pods-SuryaSoftTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuryaSoftTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuryaSoftTestTests/Pods-SuryaSoftTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		975D017BA6E4C54C6E8DB51D /* Pods_SuryaSoftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuryaSoftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CB9879E912241029EFF642 /* Pods-SuryaSoftTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuryaSoftTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuryaSoftTestTests/Pods-SuryaSoftTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC20285521A8842200B73B05 /* ContactListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableCell.swift; sourceTree = "<group>"; };
+		AC20285721A8844300B73B05 /* ContactListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCellModel.swift; sourceTree = "<group>"; };
+		AC20285921A964CB00B73B05 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		AC20285B21A98C5700B73B05 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		AC20285D21A995A300B73B05 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		AC20285E21A995A300B73B05 /* AppURLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppURLConstants.swift; sourceTree = "<group>"; };
+		AC20286121A99A7B00B73B05 /* CoreDataUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUtil.swift; sourceTree = "<group>"; };
+		AC20286321A99ACD00B73B05 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		AC20286D21A9C3A400B73B05 /* ContactList+FetchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactList+FetchResultController.swift"; sourceTree = "<group>"; };
+		AC20286F21A9CADB00B73B05 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		AC20287121A9CB2600B73B05 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		AC20287321A9CDCA00B73B05 /* FetchContactServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContactServiceProtocol.swift; sourceTree = "<group>"; };
+		ACE98E2421A5B2C40042F26D /* SuryaSoftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuryaSoftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE98E2721A5B2C40042F26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE98E2C21A5B2C40042F26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE98E2F21A5B2C40042F26D /* SuryaSoftTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuryaSoftTest.xcdatamodel; sourceTree = "<group>"; };
+		ACE98E3121A5B2C60042F26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE98E3421A5B2C60042F26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE98E3621A5B2C60042F26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE98E3B21A5B2C70042F26D /* SuryaSoftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuryaSoftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE98E3F21A5B2C70042F26D /* SuryaSoftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuryaSoftTestTests.swift; sourceTree = "<group>"; };
+		ACE98E4121A5B2C70042F26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE98E4C21A5B66D0042F26D /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		ACE98E4E21A5B8660042F26D /* FetchContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContactService.swift; sourceTree = "<group>"; };
+		C68AA89268ECBEAAC2C44DBA /* Pods_SuryaSoftTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuryaSoftTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE98E2121A5B2C40042F26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7166999B04A49F99AC6D40D5 /* Pods_SuryaSoftTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE98E3821A5B2C70042F26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E3DE962D2B216771180EC7 /* Pods_SuryaSoftTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165A0A90C573BBC7F1BC0CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975D017BA6E4C54C6E8DB51D /* Pods_SuryaSoftTest.framework */,
+				C68AA89268ECBEAAC2C44DBA /* Pods_SuryaSoftTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC20285121A8816F00B73B05 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AC20285921A964CB00B73B05 /* ContactViewController.swift */,
+				ACE98E4C21A5B66D0042F26D /* ContactListViewModel.swift */,
+				AC20285521A8842200B73B05 /* ContactListTableCell.swift */,
+				AC20285721A8844300B73B05 /* ContactListCellModel.swift */,
+				AC20286D21A9C3A400B73B05 /* ContactList+FetchResultController.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		AC20285221A8817F00B73B05 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		AC20285321A8818800B73B05 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				ACE98E4E21A5B8660042F26D /* FetchContactService.swift */,
+				AC20287321A9CDCA00B73B05 /* FetchContactServiceProtocol.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		AC20285421A8819400B73B05 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC20285E21A995A300B73B05 /* AppURLConstants.swift */,
+				AC20285D21A995A300B73B05 /* UIImageViewExtension.swift */,
+				AC20285B21A98C5700B73B05 /* NetworkError.swift */,
+				AC20286121A99A7B00B73B05 /* CoreDataUtil.swift */,
+				AC20286321A99ACD00B73B05 /* CoreDataStack.swift */,
+				AC20286F21A9CADB00B73B05 /* AppUtility.swift */,
+				AC20287121A9CB2600B73B05 /* StringConstants.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ACE98E1B21A5B2C40042F26D = {
+			isa = PBXGroup;
+			children = (
+				ACE98E2621A5B2C40042F26D /* SuryaSoftTest */,
+				ACE98E3E21A5B2C70042F26D /* SuryaSoftTestTests */,
+				ACE98E2521A5B2C40042F26D /* Products */,
+				BCA97851204CBC89974934EE /* Pods */,
+				165A0A90C573BBC7F1BC0CD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE98E2521A5B2C40042F26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE98E2421A5B2C40042F26D /* SuryaSoftTest.app */,
+				ACE98E3B21A5B2C70042F26D /* SuryaSoftTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE98E2621A5B2C40042F26D /* SuryaSoftTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC20285421A8819400B73B05 /* Core */,
+				AC20285321A8818800B73B05 /* NetworkLayer */,
+				AC20285221A8817F00B73B05 /* DataLayer */,
+				AC20285121A8816F00B73B05 /* PresentationLayer */,
+				ACE98E2721A5B2C40042F26D /* AppDelegate.swift */,
+				ACE98E2B21A5B2C40042F26D /* Main.storyboard */,
+				ACE98E3121A5B2C60042F26D /* Assets.xcassets */,
+				ACE98E3321A5B2C60042F26D /* LaunchScreen.storyboard */,
+				ACE98E3621A5B2C60042F26D /* Info.plist */,
+				ACE98E2E21A5B2C40042F26D /* SuryaSoftTest.xcdatamodeld */,
+			);
+			path = SuryaSoftTest;
+			sourceTree = "<group>";
+		};
+		ACE98E3E21A5B2C70042F26D /* SuryaSoftTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE98E3F21A5B2C70042F26D /* SuryaSoftTestTests.swift */,
+				ACE98E4121A5B2C70042F26D /* Info.plist */,
+			);
+			path = SuryaSoftTestTests;
+			sourceTree = "<group>";
+		};
+		BCA97851204CBC89974934EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7484516018D6653EDD1A82 /* Pods-SuryaSoftTest.debug.xcconfig */,
+				3761FDA7DD4C39EBD0116803 /* Pods-SuryaSoftTest.release.xcconfig */,
+				A5CB9879E912241029EFF642 /* Pods-SuryaSoftTestTests.debug.xcconfig */,
+				9499F5E9C9A5FEF03D24CA60 /* Pods-SuryaSoftTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE98E2321A5B2C40042F26D /* SuryaSoftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE98E4421A5B2C70042F26D /* Build configuration list for PBXNativeTarget "SuryaSoftTest" */;
+			buildPhases = (
+				A16F70604651E768FE71BC3D /* [CP] Check Pods Manifest.lock */,
+				ACE98E2021A5B2C40042F26D /* Sources */,
+				ACE98E2121A5B2C40042F26D /* Frameworks */,
+				ACE98E2221A5B2C40042F26D /* Resources */,
+				B4FF094F6F94384880076981 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuryaSoftTest;
+			productName = SuryaSoftTest;
+			productReference = ACE98E2421A5B2C40042F26D /* SuryaSoftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE98E3A21A5B2C70042F26D /* SuryaSoftTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE98E4721A5B2C70042F26D /* Build configuration list for PBXNativeTarget "SuryaSoftTestTests" */;
+			buildPhases = (
+				440BCC0345EEEE9C26CD2161 /* [CP] Check Pods Manifest.lock */,
+				ACE98E3721A5B2C70042F26D /* Sources */,
+				ACE98E3821A5B2C70042F26D /* Frameworks */,
+				ACE98E3921A5B2C70042F26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE98E3D21A5B2C70042F26D /* PBXTargetDependency */,
+			);
+			name = SuryaSoftTestTests;
+			productName = SuryaSoftTestTests;
+			productReference = ACE98E3B21A5B2C70042F26D /* SuryaSoftTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE98E1C21A5B2C40042F26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Satyam Sehgal";
+				TargetAttributes = {
+					ACE98E2321A5B2C40042F26D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ACE98E3A21A5B2C70042F26D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ACE98E2321A5B2C40042F26D;
+					};
+				};
+			};
+			buildConfigurationList = ACE98E1F21A5B2C40042F26D /* Build configuration list for PBXProject "SuryaSoftTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE98E1B21A5B2C40042F26D;
+			productRefGroup = ACE98E2521A5B2C40042F26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE98E2321A5B2C40042F26D /* SuryaSoftTest */,
+				ACE98E3A21A5B2C70042F26D /* SuryaSoftTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE98E2221A5B2C40042F26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE98E3521A5B2C60042F26D /* LaunchScreen.storyboard in Resources */,
+				ACE98E3221A5B2C60042F26D /* Assets.xcassets in Resources */,
+				ACE98E2D21A5B2C40042F26D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE98E3921A5B2C70042F26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440BCC0345EEEE9C26CD2161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuryaSoftTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16F70604651E768FE71BC3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuryaSoftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FF094F6F94384880076981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuryaSoftTest/Pods-SuryaSoftTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuryaSoftTest/Pods-SuryaSoftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE98E2021A5B2C40042F26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20287021A9CADB00B73B05 /* AppUtility.swift in Sources */,
+				ACE98E4D21A5B66D0042F26D /* ContactListViewModel.swift in Sources */,
+				AC20285C21A98C5700B73B05 /* NetworkError.swift in Sources */,
+				ACE98E4F21A5B8660042F26D /* FetchContactService.swift in Sources */,
+				AC20286421A99ACD00B73B05 /* CoreDataStack.swift in Sources */,
+				ACE98E2821A5B2C40042F26D /* AppDelegate.swift in Sources */,
+				AC20285621A8842200B73B05 /* ContactListTableCell.swift in Sources */,
+				AC20286021A995A300B73B05 /* AppURLConstants.swift in Sources */,
+				AC20287221A9CB2600B73B05 /* StringConstants.swift in Sources */,
+				AC20286E21A9C3A400B73B05 /* ContactList+FetchResultController.swift in Sources */,
+				AC20285F21A995A300B73B05 /* UIImageViewExtension.swift in Sources */,
+				AC20285821A8844300B73B05 /* ContactListCellModel.swift in Sources */,
+				AC20286221A99A7B00B73B05 /* CoreDataUtil.swift in Sources */,
+				AC20285A21A964CB00B73B05 /* ContactViewController.swift in Sources */,
+				ACE98E3021A5B2C40042F26D /* SuryaSoftTest.xcdatamodeld in Sources */,
+				AC20287421A9CDCA00B73B05 /* FetchContactServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE98E3721A5B2C70042F26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE98E4021A5B2C70042F26D /* SuryaSoftTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE98E3D21A5B2C70042F26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE98E2321A5B2C40042F26D /* SuryaSoftTest */;
+			targetProxy = ACE98E3C21A5B2C70042F26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE98E2B21A5B2C40042F26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE98E2C21A5B2C40042F26D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE98E3321A5B2C60042F26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE98E3421A5B2C60042F26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE98E4221A5B2C70042F26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE98E4321A5B2C70042F26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE98E4521A5B2C70042F26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7484516018D6653EDD1A82 /* Pods-SuryaSoftTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DV636QFZ5Q;
+				INFOPLIST_FILE = SuryaSoftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyam.suryasoft.SuryaSoftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE98E4621A5B2C70042F26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3761FDA7DD4C39EBD0116803 /* Pods-SuryaSoftTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DV636QFZ5Q;
+				INFOPLIST_FILE = SuryaSoftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyam.suryasoft.SuryaSoftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACE98E4821A5B2C70042F26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CB9879E912241029EFF642 /* Pods-SuryaSoftTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DV636QFZ5Q;
+				INFOPLIST_FILE = SuryaSoftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyam.suryasoft.SuryaSoftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaSoftTest.app/SuryaSoftTest";
+			};
+			name = Debug;
+		};
+		ACE98E4921A5B2C70042F26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9499F5E9C9A5FEF03D24CA60 /* Pods-SuryaSoftTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DV636QFZ5Q;
+				INFOPLIST_FILE = SuryaSoftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satyam.suryasoft.SuryaSoftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuryaSoftTest.app/SuryaSoftTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE98E1F21A5B2C40042F26D /* Build configuration list for PBXProject "SuryaSoftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE98E4221A5B2C70042F26D /* Debug */,
+				ACE98E4321A5B2C70042F26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE98E4421A5B2C70042F26D /* Build configuration list for PBXNativeTarget "SuryaSoftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE98E4521A5B2C70042F26D /* Debug */,
+				ACE98E4621A5B2C70042F26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE98E4721A5B2C70042F26D /* Build configuration list for PBXNativeTarget "SuryaSoftTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE98E4821A5B2C70042F26D /* Debug */,
+				ACE98E4921A5B2C70042F26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACE98E2E21A5B2C40042F26D /* SuryaSoftTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACE98E2F21A5B2C40042F26D /* SuryaSoftTest.xcdatamodel */,
+			);
+			currentVersion = ACE98E2F21A5B2C40042F26D /* SuryaSoftTest.xcdatamodel */;
+			path = SuryaSoftTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACE98E1C21A5B2C40042F26D /* Project object */;
+}
